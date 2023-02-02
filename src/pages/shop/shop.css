@@ -13,9 +13,9 @@
 
 .product {
   border-radius: 15px;
-  width: 300px;
+  width: 200px;
   height: 350px;
-  margin: 100px;
+  margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 .product img {
-  width: 400px;
+  width: 200px;
 }
 
 .product .description {
@@ -50,4 +50,15 @@
   background-color: rgb(19, 19, 19);
   color: white;
   cursor: pointer;
+}
+@media (max-width: 600px) {
+  .shopTitle h1{
+    font-size: 30px;
+  }
+  .products{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
 }
