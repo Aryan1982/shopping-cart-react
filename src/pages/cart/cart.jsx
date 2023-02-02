@@ -3,6 +3,7 @@ import { ShopContext } from "../../context/shop-context";
 import { PRODUCTS } from "../../products";
 import { CartItem } from "./cart-item";
 import { useNavigate } from "react-router-dom";
+import Navbar from '../../components/navbar'
 
 import "./cart.css";
 export const Cart = () => {
@@ -13,6 +14,7 @@ export const Cart = () => {
 
   return (
     <div className="cart">
+    <Navbar/>
       <div>
         <h1>Your Cart Items</h1>
       </div>
