@@ -12,8 +12,7 @@ function App() {
     <div className="App">
 
       <ShopContextProvider>
-        <Router>
-                 
+        <Router>    
           <Routes>
           <Route path="/login" element={<Login/>} />
             <Route path="/" element={<Shop />} />

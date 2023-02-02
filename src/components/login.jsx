@@ -36,7 +36,7 @@ const handleSubmit = (event) => {
       // Invalid password
       setErrorMessages({ name: "pass", message: errors.pass });
     } else {
-      window.open("/");
+      window.open("#/");
     }
   } else {
     // Username not found

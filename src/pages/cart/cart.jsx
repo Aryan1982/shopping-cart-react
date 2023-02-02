@@ -32,6 +32,7 @@ export const Cart = () => {
           <button onClick={() => navigate("/")}> Continue Shopping </button>
           <button
             onClick={() => {
+              alert("Order has been placed")
               checkout();
               navigate("/checkout");
             }}
