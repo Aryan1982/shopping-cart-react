@@ -33,7 +33,7 @@ export const Cart = () => {
           <button
             onClick={() => {
               alert("Order has been placed")
-              checkout();
+              // checkout();
               navigate("/checkout");
             }}
           >
