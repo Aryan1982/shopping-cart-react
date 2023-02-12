@@ -19,9 +19,9 @@ export const Cart = () => {
         <h1>Your Cart Items</h1>
       </div>
       <div className="cart">
-        {PRODUCTS.map((product) => {
+        {PRODUCTS.map((product,i) => {
           if (cartItems[product.id] !== 0) {
-            return <CartItem data={product} />;
+            return <CartItem key={i} data={product} />;
           }
         })}
       </div>
@@ -32,7 +32,7 @@ export const Cart = () => {
           <button onClick={() => navigate("/")}> Continue Shopping </button>
           <button
             onClick={() => {
-              alert("Order has been placed")
+              // alert("Order has been placed")
               // checkout();
               navigate("/checkout");
             }}

@@ -6,6 +6,7 @@
 }
 
 .cartItem {
+/*  padding: 10px;*/
   width: 700px;
   height: 250px;
   display: flex;
@@ -17,13 +18,16 @@
 
 .cartItem img {
   width: 200px;
+  margin-left: 10px;
 }
 
 .cartItem .description {
   width: 100%;
   font-size: 30px;
 }
-
+h1{
+  margin-top: 100px;
+}
 .countHandler input {
   width: 40px;
   text-align: center;
@@ -47,6 +51,12 @@
 }
 .cartItem{
   width: 300px;
-  height: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.cartItem img{
+  margin-left: none;
+  margin-top: 10px;
 }
 }
